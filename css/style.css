@@ -1,0 +1,155 @@
+html {
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    min-height: 100vh;
+    background: #F5F6F7;
+ }
+
+ header,section {
+     width: 100%;
+     height: auto;
+ }
+
+ .container {
+     width: 90%;
+     margin: 0 auto;
+ }
+
+ h1 {
+     font-size: 32px;
+     font-weight: bold;
+     padding: 30px 0;
+ }
+
+.head-label {
+    font-weight: bold;
+}
+
+.label {
+    text-align: end;
+    font-weight: 400;
+    flex-basis: 30%;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    align-items: center;
+    margin: 0 !important;
+}
+
+.radio {
+     font-weight: bold;
+     display: block;
+     margin: 0 !important;
+     padding-top: 10px;
+ }
+
+ .field-radio{
+     margin-left: 110px;
+     margin-bottom: 50px !important;
+ }
+
+.field-flex {
+    display: flex;
+}
+
+ .control-input{
+    width: 400px;
+ }
+
+ .block-name{
+    text-align: center;
+    font-weight: bold;
+    max-width: 30%;
+    margin: 30px 0 15px;
+   
+ }
+
+ .icon{
+     background: #EEEEEE;
+     color: black !important;
+     border: 1px solid #dbdbdb;
+     border-radius: 4px;
+ }
+
+.label-p {
+    padding-left: 30px;
+    white-space: nowrap;
+}
+
+.control-p{
+    max-width: 150px;
+}
+
+.control-pp{
+    max-width: 100px;
+}
+
+.control-checkbox {
+    height: 40px;
+}
+.control-checkbox input{
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+.button {
+    width: 400px;
+    height: 40px;
+    background: #3679B3;
+    color: white;
+    margin: 30px 0;
+}
+
+.button:hover {
+    color: white;
+    background: #3e74a3;
+}
+
+.g-recaptcha{
+    margin-top: 50px;
+}
+
+.popup {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	padding: 20px;
+    width: 360px;
+    height: 360px;
+	margin-left: -200px;	
+	background: #fff;
+	border: 1px solid green;
+	border-radius: 4px; 
+	z-index: 99999;
+	opacity: 1;	
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.popup p {
+    padding-top: 100px;
+    font-size: 28px;
+    text-align: center;
+}
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}

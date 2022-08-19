@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>регистрация на сайте по продаже автозапчастей</title>
+    <link rel="stylesheet" type="text/css" href="css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Регистрация</h1>
+        </div>
+    </header>
+    
+    <section>
+        <div class="container">
+          <form>
+                <div class="field field-radio">
+                    <label class="head-label">Вы регистрируетесь как:</label>
+                    <div class="control">
+                      <label class="radio">
+                        <input type="radio" name="question" value="1">
+                        Покупатель
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="question" value="2">
+                        Продавец
+                      </label>
+                    </div>
+                </div>
+
+                <div class="field field-flex">
+                    <label class="label">Эл. почта</label>
+                    <div class="control control-input">
+                      <input class="input" type="email">
+                    </div>
+                </div>
+                
+                <div class="block-name">Название организации</div>
+
+                <div class="field field-flex">
+                    <label class="label">ИП или Юр. лицо</label>
+                    <div class="control control-input">
+                      <input class="input" type="text">
+                    </div>
+                </div>
+
+                <div class="field field-flex">
+                    <label class="label">ИНН</label>
+                    <div class="control control-input">
+                      <input class="input" type="text">
+                    </div>
+                </div>
+
+                <div class="block-name">Фактический адрес</div>
+
+                <div class="field field-flex">
+                    <label class="label">Ваш город</label>
+                    <div class="control control-input">
+                      <input class="input" type="text">
+                    </div>
+                </div>
+
+                <div class="field field-flex">
+                    <label class="label">Улица</label>
+                    <div class="control control-p">
+                      <input class="input" type="text">
+                    </div>
+                   
+                    <div class="field-flex">
+                        <label class="label label-p">Дом/стр.</label>
+                        <div class="control control-p">
+                            <input class="input" type="text">
+                        </div>
+                   </div>
+                   <div class="field-flex">
+                        <label class="label label-p">Офис</label>
+                        <div class="control control-p control-pp">
+                            <input class="input" type="text">
+                        </div>
+                    </div> 
+                   
+                </div>
+
+                <div class="field field-flex">
+                    <label class="label">Телефон</label>
+                    <div class="control has-icons-left control-input">
+                      <input class="input" type="tel">
+                      <span class="icon is-small is-left">
+                        <p>+7</p>
+                      </span>
+                    </div>
+                </div>
+
+                <div class="field field-flex" id="field-hidden">
+                    <label class="label">Сайт вашей компании</label>
+                    <div class="control control-input">
+                      <input class="input" type="text">
+                    </div>
+                </div>
+                
+                <div class="block-name">Виды деятельности</div>
+
+                <div class="field field-flex">
+                  <label class="label">Магазин</label>
+                  <div class="control control-checkbox">
+                    <input type="checkbox">
+                  </div>
+                </div>
+
+                <div class="field field-flex">
+                  <label class="label">Региональная сеть магазинов</label>
+                  <div class="control control-checkbox">
+                    <input type="checkbox">
+                  </div>
+                </div>
+
+                <div class="field field-flex">
+                  <label class="label">Федеральная сеть магазинов</label>
+                  <div class="control control-checkbox">
+                    <input type="checkbox">
+                  </div>
+                </div>
+
+                <div class="field field-flex">
+                  <label class="label">Интернет-магазин</label>
+                  <div class="control control-checkbox">
+                    <input type="checkbox">
+                  </div>
+                </div>
+
+                <div class="field field-flex">
+                  <label class="label">Автосервис</label>
+                  <div class="control control-checkbox">
+                    <input type="checkbox">
+                  </div>
+                </div>
+
+                <div class="field field-flex">
+                  <label class="label">Прочее</label>
+                  <div class="control control-input">
+                    <input class="input" type="text">
+                  </div>
+                </div>
+
+                <div class="field-flex">
+                  <label class="label"></label>
+                  <div class="g-recaptcha" data-sitekey="some_key"></div>
+                </div>
+
+                <div class="field field-flex">
+                  <div class="control control-button">
+                    <input class="button" type="submit" value="Отправить заявку">
+                  </div>
+                </div>
+
+          </form>
+        </div>
+    </section>
+
+
+    <div class="popup-fade">
+      <div class="popup">
+        <a class="popup-close" href="#">Закрыть</a>
+        <p>Форма успешно отправлена!</p>
+      </div>		
+    </div>
+
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
